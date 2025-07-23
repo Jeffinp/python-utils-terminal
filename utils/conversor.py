@@ -1,9 +1,16 @@
+"""
+Módulo de conversão de unidades de temperatura.
 
-# utils/conversor.py
+Este script permite ao usuário converter valores de temperatura entre as escalas 
+Celsius e Fahrenheit. Ele solicita a temperatura, a escala de destino (C ou F) 
+e exibe o resultado formatado.
+"""
+
 def executar():
-    """
-    Módulo de conversão de unidades e moedas.
-    Esta função permite ao usuário converter temperaturas entre Celsius e Fahrenheit.
+    """Executa o conversor de temperatura interativo.
+
+    Solicita um valor de temperatura e a unidade de destino (Celsius ou Fahrenheit). 
+    Realiza o cálculo de conversão e exibe o resultado formatado com duas casas decimais.
     """
     try:
         print("\n--- Conversor de Temperatura ---")
